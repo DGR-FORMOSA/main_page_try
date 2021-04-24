@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Marvel', sans-serif;
+}
+
+.primary{
+    width: 100%;
+    height: 25px;
+    background-color: #0B4A91;
+    
+}
+
+.container{
+    width: 97%;
+    max-width: 1200px;
+    margin:auto;
+    height: 25px;
+}
+
+.topbar-left{
+    box-sizing:content-box;
+    display:table-cell;
+    float:left;
+    line-height:normal;
+    position:static;
+    z-index:auto;    
+}
+
+.topbar-section-topbar-text{
+    background-color:transparent;
+    margin-top: auto;
+    padding: 1px 5px 5px 5px;    
+}
+
+.topbar-section-topbar-text a{
+    font-size: 13px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: white;
+    padding: 8px;
+    
+}
+
+.topbar-right{
+    box-sizing:content-box;
+    display:block;
+    float:right;
+    line-height:normal;
+    position:static;
+    z-index:auto;    
+}
+
+.topbar-section-1-topbar-text{
+    background-color:transparent;
+    margin-top: auto;
+    padding: 1px 5px 5px 5px;
+    margin-right: 130px;
+}
+
+.topbar-section-1-topbar-text a{
+    font-size: 13px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: white;
+}
+
+.redes{
+    float:right;
+    line-height: 35px;
+    position: fixed;
+    margin-left: 1090px;
+}
+.redes img{
+    width: 90px;
+    height: 21px;
+}
+
+.logos{
+    background-color:rgb(255, 255, 255);
+    margin-top: 0px;
+    width: 100%;
+    height: 130px;
+    position: fixed;
+    box-sizing: border-box;
+}
+.logoizquierda img{
+    float: left;;
+    position: fixed;
+    margin-left: 80px;
+    margin-top: 14px;
+}
+
+.logoderecha img{
+    float: right;;
+    line-height: 350px;
+    width: 95px;
+    margin-top: 9px;
+    margin-right: 90px;
+    padding-right: 1px;
+}
+.logotodos img{
+    background-color:transparent;
+    position:fixed;
+    margin-left: 520px;
+    margin-top: 40px;
+}
+
+.navegacion{
+    background-color: #0B4A91;
+    margin-top: 130px;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+}
+
+.navegacion nav{
+    margin-left: 70px;
+    margin-right: 400px;
+}
+
+.navegacion nav li{
+    display: table-cell;
+    padding: 20px;
+}
+
+.navegacion nav a{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: white;
+    padding: 18px 2px 5px 2px;
+    border-bottom: 4px solid transparent;
+    transition: all 500 ms ease;
+}
+
+.navegacion nav a:hover {
+    color: white;
+    border-bottom: 4px solid #67B4E2;
+}
+
+.buscar{
+    position: ;
+    padding: 5px;
+    float: right;
+    margin-top:-55px;
+    margin-right: 79px;  
+}
+
+.buscar input{
+    width: 0px;
+    height: 40px;
+    padding: 0px 20px;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    transition: all 0.6s ease;
+}
+
+.btn{
+    position: absolute ;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background: green;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 83px;
+    margin-top: 4px;
+}
+
+.buscar:hover input{
+    width: 300px;
+
+}
+
+.z.buscar:hover :focus{
+    width: 240px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.buscar{
+    float: right;
+    position:;
+    padding: 5px;
+    margin-top:-55px;
+    margin-right: 79px;
+}
+
+.buscar input{
+    width: 240px;
+    height: 40px;
+    padding: 0px 20px;
+    font-size: 20px;
+    color: black;
+    outline:none;
+    border: 1px solid silver;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgb(29, 126, 37);
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.logoentero{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 139, 139);
+    margin-top: 654px;
+    position: fixed;
+
+}
